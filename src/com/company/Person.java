@@ -10,6 +10,11 @@ public class Person
     // det her er constructoren
 
 
+    public Person(String navn, int alder)
+    {
+        this.navn = navn;
+        this.alder = alder;
+    }
 
     public String getNavn()
     {

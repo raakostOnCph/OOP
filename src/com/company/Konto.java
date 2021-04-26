@@ -12,4 +12,27 @@ public class Konto
         this.person = person;
         this.saldo = saldo;
     }
+
+
+    public Person getPerson()
+    {
+        return person;
+    }
+
+    public void setPerson(Person person)
+    {
+        this.person = person;
+    }
+
+    public int getSaldo()
+    {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo)
+    {
+        this.saldo = saldo;
+    }
+
+
 }

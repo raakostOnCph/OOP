@@ -26,7 +26,7 @@ public class Main {
 //
 //        System.out.println(person.toString());
 
-        Person person = new Person("nik", 49);
+
 
      //   System.out.println(person.getNavn());
 
@@ -67,15 +67,22 @@ public class Main {
         }
 
 
+        Konto konto = new Konto(person1, 120);
 
+        Konto konto1 = new Konto(new Person("nik", 49) , -12);
 
-
-
+        System.out.println(konto.getPerson().getNavn() + konto.getPerson().getAlder() + konto.getSaldo());
 
 
 
 
     }    // her slutter min main.
+
+
+
+
+
+
 
     public static void opretPersoner (Person [] people) {
 
